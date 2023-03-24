@@ -1,14 +1,15 @@
 ## find the factorial of n numbers
 import java.util.Scanner;
-public class Natural_numbers {
+public class factorial {
   public static void main(String args[]) {
-	       int sum=0;
+	       int fact=1;
 		   Scanner scanner = new Scanner(System.in);
 		   System.out.println("Enter the number:");
 		   long number = scanner.nextInt();
 		   for(int i=1;i<=number;++i) {
-			  sum=sum+i;
+			  fact=fact*i;
 		   }
-		   System.out.print("the sum of "+" "+ number +" is "+ sum);
+		   System.out.print("the factorial of "+" "+ number +" is "+ fact);
 		   }
 	   }
+
