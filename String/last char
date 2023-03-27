@@ -1,11 +1,17 @@
 ## Given a string, take the last char and return a new string with the last char added at the front and back, so "cat" yields "tcatt".
+import java.util.Scanner;
 class Demo{
 	public static void main(String args[]) {
-		String str="Gaya";
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the word:");
+		String str= scanner.nextLine();
 		String last = str.substring(str.length() - 1);
 		System.out.println( last + str + last);
 	}
 }
 
 output:
-aGayaa
+Enter the word:
+gayathri
+igayathrii
+
